@@ -11,6 +11,7 @@
   "dependencies": {
     "framer-motion": "^11.3.2",
     "next": "14.2.5",
+    "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -18,15 +19,15 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5",
     "eslint-config": "^0.3.0",
+    "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tailwindcss": "^3.17.1",
+    "postcss": "^8",
     "prettier": "^3.3.1",
     "prettier-plugin-tailwindcss": "^0.6.1",
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
