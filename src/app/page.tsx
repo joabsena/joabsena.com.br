@@ -43,7 +43,7 @@ export default function Home() {
           <Link href="/about" className="underline">
             About
           </Link>
-          <Link href="/project" className="underline">
+          <Link href="/projects" className="underline">
             Projects
           </Link>
           <Link href="/posts" className="underline">
