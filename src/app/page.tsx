@@ -1,7 +1,6 @@
 'use client';
 
-import { Container, DivisorLine, HeroPattern } from '@/components';
-import AnimateEnter from '@/components/animate-enter';
+import { AnimateEnter, Container, DivisorLine, HeroPattern } from '@/components';
 import Link from 'next/link';
 
 export default function Home() {
