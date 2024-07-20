@@ -180,8 +180,8 @@ export function HeroPattern() {
           id="pulse-1"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#cbd5e1" stopOpacity="0" />
-          <stop stopColor="#cbd5e1" />
+          <stop stopColor="#cffafe" stopOpacity="0" />
+          <stop stopColor="#cffafe" />
           <stop offset="1" stopColor="#64748b" stopOpacity="0" />
         </motion.linearGradient>
 

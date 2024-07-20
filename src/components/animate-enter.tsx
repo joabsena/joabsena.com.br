@@ -1,6 +1,6 @@
 'use client';
 
-import { LazyMotion, domAnimation, m, useReducedMotion } from 'framer-motion';
+import { LazyMotion, domAnimation, m } from 'framer-motion';
 import { type ReactNode } from 'react';
 
 interface AnimateEnterProps {
@@ -9,8 +9,6 @@ interface AnimateEnterProps {
 }
 
 export function AnimateEnter({ children, delay = 0 }: AnimateEnterProps) {
-  const prefersReducedMotion = useReducedMotion();
-
   return (
     <LazyMotion features={domAnimation}>
       <m.div
