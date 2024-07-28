@@ -1,17 +1,17 @@
 'use client';
 
-import { AnimateEnter, Container, DivisorLine, HeroPattern } from '@/components';
+import { AnimateEnter, DivisorLine } from '@/components';
 import Link from 'next/link';
 
 export default function Home() {
   return (
-    <Container>
+    <>
       <AnimateEnter delay={0.4}>
         <h1 className="text-5xl font-bold">Joab Sena</h1>
       </AnimateEnter>
 
       <AnimateEnter delay={0.6}>
-        <p className="mt-4 mb-4">
+        <p className="mt-4 mb-4 text-balance">
           Software Engineer with experience in creating projects focused on performance and
           accessibility, always paying attention to details when implementing UI mockups.
         </p>
@@ -51,10 +51,6 @@ export default function Home() {
           </Link>
         </div>
       </AnimateEnter>
-
-      <AnimateEnter delay={0.4}>
-        <HeroPattern />
-      </AnimateEnter>
-    </Container>
+    </>
   );
 }

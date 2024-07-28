@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={DM_SANS.className}>
       <body className="bg-slate-100 overflow-x-hidden">
-        {children}
+        <main className="container mx-auto min-h-full max-w-3xl mt-12 md:mt-28">{children}</main>
       </body>
     </html>
   );
