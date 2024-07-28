@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 const DM_SANS = DM_Sans({ subsets: ['latin'] });
@@ -19,6 +21,9 @@ export default function RootLayout({
       <body className="bg-slate-100 overflow-x-hidden">
         <main className="container mx-auto min-h-full max-w-3xl mt-12 md:mt-28">{children}</main>
       </body>
+
+      <Analytics />
+      <SpeedInsights />
     </html>
   );
 }
