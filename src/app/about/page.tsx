@@ -47,8 +47,8 @@ export default function About() {
         <AnimateEnter delay={1}>
           <p className="mt-4 mb-4 text-neutral-700 text-balance">
             Outside of work, I love learning new technologies, playing video games, and spending
-            time with my family. As the father of Ana Júlia, I cherish every moment with my daughter
-            and strive to maintain a healthy work-life balance.
+            time with my family. I cherish every moment with them and strive to maintain a healthy
+            work-life balance.
           </p>
         </AnimateEnter>
       </div>
