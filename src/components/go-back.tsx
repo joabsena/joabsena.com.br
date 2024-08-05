@@ -10,7 +10,7 @@ export default function GoBack() {
     <div
       role="link"
       aria-label="go back to previous page"
-      className="mb-8 flex gap-2 items-center text-secondary dark:text-secondary-dark cursor-pointer"
+      className="w-fit mb-8 flex gap-2 items-center text-secondary dark:text-secondary-dark cursor-pointer"
       onClick={back}
     >
       <ArrowUpLeft size={18} className="rotate" aria-label="arrow left" />
