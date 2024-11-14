@@ -1,6 +1,6 @@
 'use client';
 
-import { Container, ToggleTheme } from '@/components';
+import { Container } from '@/components';
 import type { ReactNode } from 'react';
 
 interface TemplateProps {
@@ -10,7 +10,6 @@ interface TemplateProps {
 export default function RootLayout({ children }: TemplateProps) {
   return (
     <Container>
-      <ToggleTheme />
       {children}
     </Container>
   );

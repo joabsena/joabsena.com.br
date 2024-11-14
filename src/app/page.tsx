@@ -43,11 +43,11 @@ export default function Home() {
           <Link href="/about" className="underline">
             About
           </Link>
-          <Link href="/projects" className="underline">
-            Projects
+          <Link href="/blog" className="underline">
+            Blog
           </Link>
-          <Link href="/posts" className="underline">
-            Posts
+          <Link href="/laboratory" className="underline">
+            Laboratory
           </Link>
         </div>
       </AnimateEnter>
