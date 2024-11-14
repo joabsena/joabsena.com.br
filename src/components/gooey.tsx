@@ -4,9 +4,9 @@ import Goo from 'gooey-react';
 
 export function Gooey() {
   return (
-    <div className="absolute mx-auto -z-50 blur-2xl w-full saturate-150 opacity-20 scale-[1.8]">
+    <div className="absolute mx-auto -z-50 blur-2xl md:w-full saturate-150 transform-gpu opacity-60 md:scale-[1.8]">
       <Goo intensity="strong">
-        <svg role="img" aria-label="Example of a gooey effect" className="!w-96 !h-96 gooey mx-auto">
+        <svg role="img" aria-label="svg as gooey effect" className="!w-96 !h-96 gooey mx-auto">
           <g style={{ animation: 'rotate_back 9s linear infinite' }}>
             <circle
               cx="50%"

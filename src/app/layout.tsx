@@ -3,6 +3,7 @@ import { DM_Sans } from 'next/font/google';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
+import '@/styles/gooey.css';
 import { Overlay } from '@/components/overlay';
 import { Gooey } from '@/components';
 
