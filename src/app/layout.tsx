@@ -9,7 +9,7 @@ import { Gooey } from '@/components';
 const DM_SANS = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Joab Sena',
+  title: 'Joab Sena - Software Engineer',
   description: 'Welcome'
 };
 
