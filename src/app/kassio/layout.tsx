@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={DM_SANS.className} suppressHydrationWarning>
-      <body className="overflow-x-hidden bg-primary text-primary-dark">
-        <main className="container mx-auto min-h-full max-w-3xl mt-12 md:mt-28">{children}</main>
+      <body className="overflow-x-hidden bg-white text-primary-dark">
+        <main className="container mx-auto min-h-full max-w-2xl mt-12 md:mt-28">{children}</main>
       </body>
     </html>
   );
